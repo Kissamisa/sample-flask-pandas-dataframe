@@ -5,3 +5,6 @@ dans ma machine local
 après sh jenkins.sh et activer l env 
 4-Create database via Flask CLI
 5-Loader les données via un fichier csv 
+6-Créer Dockerfile build/run
+docker build -t flask-pandas-app .
+docker run -p 5000:31201 -d flask-pandas-app
